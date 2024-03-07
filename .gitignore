@@ -1,0 +1,17 @@
+*.txt
+*.json
+kallisto
+*.html
+*.zip
+*.log
+*.fastq
+*.gz
+*.DS_Store
+*.Rproj
+.Rproj.user
+.RData
+.RDataTmp
+.RDataTmp1
+.Rhistory
+*.RData
+*.index
