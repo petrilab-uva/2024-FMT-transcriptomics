@@ -2,7 +2,7 @@
 G. Brett Moreau, Farha Naz, William A. Petri, Jr.
 
 ## Project Summary
-The following repository contains the data and code used for analysis of microbiome diversity and host gene expression during a mouse model of Fecal Microbiota Transplantation (FMT). Mice were treated with antibiotics and then treated with either FMT from healthy donor mice or PBS as a control. On Day 2 and Day 7, both 16S and bulk RNA sequencing were performed on cecal contents and cecal tissue, respectively. This work has been submitted to *Anaerobe* and is currently under review. It is accessable under DOI ____________.
+The following repository contains the data and code used for analysis of microbiome diversity and host gene expression during a mouse model of Fecal Microbiota Transplantation (FMT). Mice were administered antibiotics and then treated with either FMT from healthy donor mice or PBS as a control. On Day 2 and Day 7, both 16S and bulk RNA sequencing were performed on cecal contents and cecal tissue, respectively. This work has been submitted to *Anaerobe* and is currently under review. It is accessable under DOI.
 
 ## Highlights
 * FMT restores microbiome alpha diversity within 7 days after antibiotic-induced dysbiosis.
@@ -44,7 +44,7 @@ There are several files that are required for this analysis but not included. In
        
 2. **For 16S Analysis**: Training sets are required for taxonomic assignment. I used Silva training set data that has been formatted for DADA2, which are available [here](https://zenodo.org/records/4587955). Training set and Species assignment .fa.gz files should be downloaded and placed within the `data` directory for 16S analysis.
 
-3. **For RNAseq Analysis**: Two murine genomic data sets are required for these analyses. These files can be accessed from [Ensembl as an FTP download](https://useast.ensembl.org/info/data/ftp/index.html). I used release version 109, but more up-to-date releases may be currently available. These versions can be used, **but ensure that the same release version is used for both files!** Instructions for obtaining these files are outlined below.
+3. **For RNAseq Analysis**: Two murine genomic data sets are required for these analyses. These files can be accessed from [Ensembl.org as an FTP download](https://useast.ensembl.org/info/data/ftp/index.html). I used release version 109, but more up-to-date releases may be currently available. These versions can be used, **but ensure that the same release version is used for both files!** Instructions for obtaining these files are outlined below.
      * A *Mus musculus* cDNA file containing all transcript sequences is required to generate an index file used for read mapping. I used release 109, which is available [here](https://ftp.ensembl.org/pub/release-109/fasta/mus_musculus/cdna/). This file should be placed within the `data` directory. Code for generating the .index file from this file is commented out within the .sh script.
      * A *Mus musculus* GTF gene set is required to match transcript and gene identifiers to mapped reads. I used release 109, which is available [here](https://ftp.ensembl.org/pub/release-109/gtf/mus_musculus/). This file should be placed within the `data` directory.
   
