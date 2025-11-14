@@ -2,7 +2,7 @@
 G. Brett Moreau, Farha Naz, William A. Petri, Jr.
 
 ## Project Summary
-The following repository contains the data and code used for analysis of microbiome diversity and host gene expression during a mouse model of Fecal Microbiota Transplantation (FMT). Mice were administered antibiotics and then treated with either FMT from healthy donor mice or PBS as a control. On Day 2 and Day 7, both 16S and bulk RNA sequencing were performed on cecal contents and cecal tissue, respectively. This work has been submitted to *Anaerobe* and is currently under review. It is accessable under DOI.
+The following repository contains the data and code used for analysis of microbiome diversity and host gene expression during a mouse model of Fecal Microbiota Transplantation (FMT). Mice were administered antibiotics and then treated with either FMT from healthy donor mice or PBS as a control. On Day 2 and Day 7, both 16S and bulk RNA sequencing were performed on cecal contents and cecal tissue, respectively. This work is published in *Anaerobe* under DOI 10.1016/j.anaerobe.2024.102841 and can be found [here](https://pmc.ncbi.nlm.nih.gov/articles/PMC11042976/).
 
 ## Highlights
 * FMT restores microbiome alpha diversity within 7 days after antibiotic-induced dysbiosis.
